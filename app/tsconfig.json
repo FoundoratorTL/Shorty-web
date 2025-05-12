@@ -1,0 +1,11 @@
+// tsconfig.json
+{
+    "extends": "astro/tsconfigs/strict", // Use Astro’s base template
+    "include": [
+        ".astro/types.d.ts",
+        "**/*"
+    ], // Include generated types and all files
+    "exclude": [
+        "dist"
+    ] // Exclude build output
+}
